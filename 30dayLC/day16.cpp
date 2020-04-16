@@ -24,7 +24,7 @@ public:
         }
         return cmin == 0; // Return true if can found `openCount == 0` in range [cmin, cmax]
     }
-    }
+  };
     
     
  // Solution 2
