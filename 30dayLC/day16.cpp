@@ -23,10 +23,9 @@ public:
             cmin = Math.max(cmin, 0);   // It's invalid if open parentheses count < 0 that's why cmin can't be negative
         }
         return cmin == 0; // Return true if can found `openCount == 0` in range [cmin, cmax]
-    }
-  };
-    
-    
+    }  
+};
+
  // Solution 2
 class Solution {
 public:
@@ -51,5 +50,4 @@ public:
       }
         return open.empty();
     }
-};
 };
